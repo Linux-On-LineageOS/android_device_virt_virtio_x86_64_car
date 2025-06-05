@@ -15,3 +15,4 @@ DEVICE_PRODUCT_PATH := device/virt/virtio_x86_64_car
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PRODUCT_PATH)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
